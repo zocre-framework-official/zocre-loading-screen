@@ -2,9 +2,9 @@
   <img src="https://raw.githubusercontent.com/ncore-framework-official/.github/main/profile/assets/branding/ncore-loading-screen-official.webp" alt="NCore Loading Screen official visual identity" width="460">
 </p>
 
-<h1 align="center">NCore Loading Screen</h1>
+<h1 align="center">ZOcre Loading Screen</h1>
 
-<p align="center"><strong>Écran de chargement officiel NCore pour NANOS / nanos world.</strong></p>
+<p align="center"><strong>Écran de chargement officiel ZOcre pour NANOS / nanos world.</strong></p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Statut-WIP-F0A500?style=for-the-badge" alt="Work in progress">
@@ -32,13 +32,13 @@
 - progression réelle fournie par NANOS via `UpdateScreen` ;
 - timeline compacte des étapes de chargement ;
 - interface française et anglaise avec fallback anglais ;
-- trois fonds NCore locaux en slideshow ;
+- trois fonds ZOcre locaux en slideshow ;
 - fond vidéo WebM local optionnel ;
 - audio local WebM/OGG optionnel ;
 - URL audio HTTPS directe optionnelle ;
 - lecture YouTube optionnelle en mode best-effort ;
 - musique désactivée par défaut pour privilégier la stabilité NANOS/CEF ;
-- identité visuelle officielle NCore ;
+- identité visuelle officielle ZOcre ;
 - aucun framework JavaScript lourd et aucun CDN obligatoire.
 
 ### Structure
@@ -104,7 +104,7 @@ Dans le loading screen, cliquer sur ces entrées copie l'URL dans le presse-papi
 
 Voir `Licenses/LICENSE.md`, `Licenses/AI-POLICY.md`, `Licenses/COPYRIGHT.md` et `Licenses/NOTICE.md`.
 
-NCore Loading Screen est un logiciel propriétaire NCore. Les droits d'utilisation d'une copie officielle sont définis par la licence incluse dans le package.
+ZOcre Loading Screen est un logiciel propriétaire NCore. Les droits d'utilisation d'une copie officielle sont définis par la licence incluse dans le package.
 
 ---
 
@@ -119,13 +119,13 @@ NCore Loading Screen est un logiciel propriétaire NCore. Les droits d'utilisati
 - real loading progress provided by NANOS through `UpdateScreen`;
 - compact loading-stage timeline;
 - French and English UI with English fallback;
-- three local NCore slideshow backgrounds;
+- three local ZOcre slideshow backgrounds;
 - optional local WebM video background;
 - optional local WebM/OGG audio;
 - optional direct HTTPS audio URL;
 - optional best-effort YouTube playback;
 - music disabled by default for NANOS/CEF stability;
-- official NCore visual identity;
+- official ZOcre visual identity;
 - no heavy JavaScript framework and no mandatory CDN.
 
 ### Layout
@@ -191,7 +191,7 @@ Inside the loading screen, clicking these entries copies the URL to the clipboar
 
 See `Licenses/LICENSE.md`, `Licenses/AI-POLICY.md`, `Licenses/COPYRIGHT.md`, and `Licenses/NOTICE.md`.
 
-NCore Loading Screen is proprietary NCore software. Rights for an official copy are defined by the license included with the package.
+ZOcre Loading Screen is proprietary ZOcre software. Rights for an official copy are defined by the license included with the package.
 
 
 ---

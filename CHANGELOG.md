@@ -9,7 +9,7 @@
 - runtime JavaScript/CSS déplacé vers `Script/` ;
 - documents juridiques déplacés vers `Licenses/` ;
 - `Package.toml` et `index.html` conservés à la racine pour respecter NANOS ;
-- conformité finale à la charte NCore active, localisation FR/EN complète et validation renforcée des médias/liens ;
+- conformité finale à la charte ZOcre active, localisation FR/EN complète et validation renforcée des médias/liens ;
 - aucune nouvelle fonctionnalité gameplay ni dépendance Framework ajoutée ;
 - protection anti-IA ajoutée à la licence et aux en-têtes de sources ;
 - cible Git publique officielle alignée sur `ncore-framework-official/ncore-loading-screen` ;
@@ -30,7 +30,7 @@
 - JavaScript/CSS runtime moved to `Script/`;
 - legal documents moved to `Licenses/`;
 - `Package.toml` and `index.html` kept at package root for NANOS compatibility;
-- final compliance with the active NCore visual charter, complete FR/EN localization, and stronger media/link validation;
+- final compliance with the active ZOcre visual charter, complete FR/EN localization, and stronger media/link validation;
 - no new gameplay feature or Framework dependency added;
 - anti-AI protection added to the license and source headers;
 - official public Git target aligned with `ncore-framework-official/ncore-loading-screen`;

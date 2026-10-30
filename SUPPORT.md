@@ -1,8 +1,8 @@
-# NCore Loading Screen — Support
+# ZOcre Loading Screen — Support
 
 ## Français
 
-Pour l'aide publique, les annonces et les échanges avec la communauté NCore :
+Pour l'aide publique, les annonces et les échanges avec la communauté ZOcre :
 
 - **Discord officiel :** https://discord.gg/Ey4dn4Cbqj
 - **Organisation GitHub :** https://github.com/ncore-framework-official
@@ -26,7 +26,7 @@ Les vulnérabilités exploitables et informations de sécurité sensibles ne doi
 
 ## English
 
-For public help, announcements and NCore community discussion:
+For public help, announcements and ZOcre community discussion:
 
 - **Official Discord:** https://discord.gg/Ey4dn4Cbqj
 - **GitHub organization:** https://github.com/ncore-framework-official
@@ -35,6 +35,6 @@ For public help, announcements and NCore community discussion:
 
 The current public NCore Loading Screen version is **0.5.1**.
 
-Never publish passwords, tokens, API keys, private webhooks, private endpoints, production configuration, sensitive player data, internal infrastructure details or material originating from a private NCore repository.
+Never publish passwords, tokens, API keys, private webhooks, private endpoints, production configuration, sensitive player data, internal infrastructure details or material originating from a private ZOcre repository.
 
 Exploitable vulnerabilities and sensitive security information must not be posted publicly.
