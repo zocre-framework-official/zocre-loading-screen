@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ncore-framework-official/.github/main/profile/assets/branding/ncore-loading-screen-official.webp" alt="NCore Loading Screen official visual identity" width="460">
+  <img src="https://raw.githubusercontent.com/ncore-framework-official/.github/main/profile/assets/branding/ncore-loading-screen-official.webp" alt="ZOcre Loading Screen official visual identity" width="460">
 </p>
 
 <h1 align="center">ZOcre Loading Screen</h1>
@@ -96,7 +96,7 @@ loading_screen = "ncore-loading-screen"
 - Discord officiel : https://discord.gg/Ey4dn4Cbqj
 - GitHub officiel : https://github.com/ncore-framework-official/ncore-loading-screen
 - Vault / Store NANOS : https://nanos-world.com/store/packages/ncore-loading-screen
-- Soutenir NCore / Ko-fi : https://ko-fi.com/ncoreframework
+- Soutenir ZOcre / Ko-fi : https://ko-fi.com/ncoreframework
 
 Dans le loading screen, cliquer sur ces entrées copie l'URL dans le presse-papiers au lieu de naviguer dans le WebUI CEF.
 
@@ -183,7 +183,7 @@ loading_screen = "ncore-loading-screen"
 - Official Discord: https://discord.gg/Ey4dn4Cbqj
 - Official GitHub: https://github.com/ncore-framework-official/ncore-loading-screen
 - NANOS Vault / Store: https://nanos-world.com/store/packages/ncore-loading-screen
-- Support NCore / Ko-fi: https://ko-fi.com/ncoreframework
+- Support ZOcre / Ko-fi: https://ko-fi.com/ncoreframework
 
 Inside the loading screen, clicking these entries copies the URL to the clipboard instead of navigating the CEF WebUI.
 
@@ -199,6 +199,6 @@ ZOcre Loading Screen is proprietary ZOcre software. Rights for an official copy 
 ## Support public
 
 - Discord officiel : https://discord.gg/Ey4dn4Cbqj
-- Organisation NCore Framework : https://github.com/ncore-framework-official
-- Soutenir NCore / Ko-fi : https://ko-fi.com/ncoreframework
+- Organisation ZOcre Framework : https://github.com/ncore-framework-official
+- Soutenir ZOcre / Ko-fi : https://ko-fi.com/ncoreframework
 - Support : [SUPPORT.md](SUPPORT.md)
