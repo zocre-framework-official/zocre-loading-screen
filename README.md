@@ -13,7 +13,7 @@
     <img src="https://img.shields.io/badge/Discord-Officiel-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord officiel">
   </a>
   <a href="https://ko-fi.com/ncoreframework">
-    <img src="https://img.shields.io/badge/Ko--fi-Soutenir_NCore-FF5E5B?style=for-the-badge&logo=kofi&logoColor=white" alt="Soutenir NCore sur Ko-fi">
+    <img src="https://img.shields.io/badge/Ko--fi-Soutenir_NCore-FF5E5B?style=for-the-badge&logo=kofi&logoColor=white" alt="Soutenir ZOcre sur Ko-fi">
   </a>
 </p>
 
