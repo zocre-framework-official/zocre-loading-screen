@@ -12,7 +12,7 @@
 - conformité finale à la charte ZOcre active, localisation FR/EN complète et validation renforcée des médias/liens ;
 - aucune nouvelle fonctionnalité gameplay ni dépendance Framework ajoutée ;
 - protection anti-IA ajoutée à la licence et aux en-têtes de sources ;
-- cible Git publique officielle alignée sur `ncore-framework-official/ncore-loading-screen` ;
+- cible Git publique officielle alignée sur `zocre-framework-official/zocre-loading-screen` ;
 - playlist audio durcie contre les boucles d'échec et miroir public-safe resynchronisé ;
 - liens Discord/Git sécurisés contre la navigation interne CEF : clic = copie de l'URL ;
 - qualification runtime 0.5.1 clôturée pour la baseline publiée ;
@@ -33,7 +33,7 @@
 - final compliance with the active ZOcre visual charter, complete FR/EN localization, and stronger media/link validation;
 - no new gameplay feature or Framework dependency added;
 - anti-AI protection added to the license and source headers;
-- official public Git target aligned with `ncore-framework-official/ncore-loading-screen`;
+- official public Git target aligned with `zocre-framework-official/zocre-loading-screen`;
 - audio playlist hardened against failure loops and public-safe mirror resynchronized;
 - Discord/Git footer links protected against in-CEF navigation: click copies the URL;
 - 0.5.1 runtime qualification closed for the published baseline;
