@@ -9,7 +9,7 @@ Pour l'aide publique, les annonces et les échanges avec la communauté ZOcre :
 - **Page produit :** https://github.com/zocre-framework-official/zocre-loading-screen
 - **Support ZOcre :** https://github.com/zocre-framework-official/.github/blob/main/SUPPORT.md
 
-La version publique courante de NCore Loading Screen est **0.5.1**.
+La version publique courante de ZOcre Loading Screen est **0.5.1**.
 
 Ne publiez jamais dans une issue, une discussion ou un log public :
 
@@ -20,7 +20,7 @@ Ne publiez jamais dans une issue, une discussion ou un log public :
 - configuration de production ;
 - donnée joueur sensible ;
 - détail d'infrastructure interne ;
-- contenu provenant d'un dépôt privé NCore.
+- contenu provenant d'un dépôt privé ZOcre.
 
 Les vulnérabilités exploitables et informations de sécurité sensibles ne doivent pas être publiées publiquement.
 
@@ -33,7 +33,7 @@ For public help, announcements and ZOcre community discussion:
 - **Product page:** https://github.com/zocre-framework-official/zocre-loading-screen
 - **ZOcre support:** https://github.com/zocre-framework-official/.github/blob/main/SUPPORT.md
 
-The current public NCore Loading Screen version is **0.5.1**.
+The current public ZOcre Loading Screen version is **0.5.1**.
 
 Never publish passwords, tokens, API keys, private webhooks, private endpoints, production configuration, sensitive player data, internal infrastructure details or material originating from a private ZOcre repository.
 
