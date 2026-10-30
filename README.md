@@ -1,6 +1,5 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/zocre-framework-official/.github/main/profile/assets/branding/ncore-loading-screen-official.webp" alt="ZOcre Loading Screen official visual identity" width="460">
-</p>
+<!-- ZOCRE_LOADING_ARTWORK_START -->
+<!-- ZOCRE_LOADING_ARTWORK_END -->
 
 <h1 align="center">ZOcre Loading Screen</h1>
 
@@ -13,19 +12,19 @@
     <img src="https://img.shields.io/badge/Discord-Officiel-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord officiel">
   </a>
   <a href="https://ko-fi.com/ncoreframework">
-    <img src="https://img.shields.io/badge/Ko--fi-Soutenir_NCore-FF5E5B?style=for-the-badge&logo=kofi&logoColor=white" alt="Soutenir ZOcre sur Ko-fi">
+    <img src="https://img.shields.io/badge/Ko--fi-Soutenir_ZOcre-FF5E5B?style=for-the-badge&logo=kofi&logoColor=white" alt="Soutenir ZOcre sur Ko-fi">
   </a>
 </p>
 
 > **Statut public : WIP.**  
-> La version de travail actuelle est **0.5.1**. Le code présent dans ce dépôt correspond au miroir public-safe qualifié de `ncore-loading-screen`.  
+> La version de travail actuelle est **0.5.1**. Le code présent dans ce dépôt correspond à la version publique du package autonome ZOcre Loading Screen.  
 > La version **0.5.1** est publiée sur le Vault/Store NANOS ; les GDD internes, outils de qualification, configuration de production et autres éléments privés restent hors du dépôt public.
 
 ## Français
 
 ### Présentation
 
-`ncore-loading-screen` est un écran de chargement NANOS autonome. Il fonctionne sans `ncore-core`, sans base de données et sans dépendance gameplay.
+**ZOcre Loading Screen** est un écran de chargement NANOS autonome. Il fonctionne sans le framework principal, sans base de données et sans dépendance gameplay.
 
 ### Fonctionnalités
 
@@ -84,12 +83,14 @@ Lorsque la musique est activée, le bouton du mini-player gère pause/reprise. L
 
 ### Installation NANOS
 
-Le loading screen NANOS nécessite un serveur dédié. Vérifiez que `dedicated_server = true`, puis placez le package dans `Packages/ncore-loading-screen` et configurez :
+Le loading screen NANOS nécessite un serveur dédié. Vérifiez que `dedicated_server = true`. **Pour la version 0.5.1 déjà distribuée, conservez l'identifiant technique de package actuellement utilisé par NANOS**, puis configurez :
 
 ```toml
 [game]
 loading_screen = "ncore-loading-screen"
 ```
+
+L'identifiant technique de la version 0.5.1 ne doit pas être renommé isolément : sa migration nécessite une coordination avec le Vault/Store NANOS, la configuration serveur et la version du package.
 
 ### Liens officiels
 
@@ -104,7 +105,7 @@ Dans le loading screen, cliquer sur ces entrées copie l'URL dans le presse-papi
 
 Voir `Licenses/LICENSE.md`, `Licenses/AI-POLICY.md`, `Licenses/COPYRIGHT.md` et `Licenses/NOTICE.md`.
 
-ZOcre Loading Screen est un logiciel propriétaire NCore. Les droits d'utilisation d'une copie officielle sont définis par la licence incluse dans le package.
+ZOcre Loading Screen est un logiciel propriétaire ZOcre. Les droits d'utilisation d'une copie officielle sont définis par la licence incluse dans le package.
 
 ---
 
@@ -112,7 +113,7 @@ ZOcre Loading Screen est un logiciel propriétaire NCore. Les droits d'utilisati
 
 ### Overview
 
-`ncore-loading-screen` is a standalone NANOS loading screen. It works without `ncore-core`, without a database, and without gameplay dependencies.
+**ZOcre Loading Screen** is a standalone NANOS loading screen. It works independently of the main framework, without a database, and without gameplay dependencies.
 
 ### Features
 
@@ -171,12 +172,14 @@ When music is enabled, the mini-player button controls pause/resume. Arrow Up/Do
 
 ### NANOS installation
 
-NANOS loading screens require a dedicated server. Make sure `dedicated_server = true`, then place the package under `Packages/ncore-loading-screen` and configure:
+NANOS loading screens require a dedicated server. Set `dedicated_server = true`. **For the already distributed version 0.5.1, preserve its current technical package identifier for NANOS compatibility**, then configure:
 
 ```toml
 [game]
 loading_screen = "ncore-loading-screen"
 ```
+
+The technical package identifier of version 0.5.1 must not be renamed in isolation. Any migration requires coordinated changes to the NANOS Vault/Store, server configuration and released package.
 
 ### Official links
 
