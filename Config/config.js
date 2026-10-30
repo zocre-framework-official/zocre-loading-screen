@@ -92,6 +92,6 @@ window.NCORE_LOADING_USER_CONFIG = Object.freeze({
     // HTTPS links displayed at the bottom of the loading screen.
     officialLinks: {
         discordUrl: "https://discord.gg/Ey4dn4Cbqj",
-        githubUrl: "https://github.com/ncore-framework-official/ncore-loading-screen"
+        githubUrl: "https://github.com/zocre-framework-official/zocre-loading-screen"
     }
 });

@@ -5,9 +5,9 @@
 Pour l'aide publique, les annonces et les échanges avec la communauté ZOcre :
 
 - **Discord officiel :** https://discord.gg/Ey4dn4Cbqj
-- **Organisation GitHub :** https://github.com/ncore-framework-official
-- **Page produit :** https://github.com/ncore-framework-official/ncore-loading-screen
-- **Support ZOcre :** https://github.com/ncore-framework-official/.github/blob/main/SUPPORT.md
+- **Organisation GitHub :** https://github.com/zocre-framework-official
+- **Page produit :** https://github.com/zocre-framework-official/zocre-loading-screen
+- **Support ZOcre :** https://github.com/zocre-framework-official/.github/blob/main/SUPPORT.md
 
 La version publique courante de NCore Loading Screen est **0.5.1**.
 
@@ -29,9 +29,9 @@ Les vulnérabilités exploitables et informations de sécurité sensibles ne doi
 For public help, announcements and ZOcre community discussion:
 
 - **Official Discord:** https://discord.gg/Ey4dn4Cbqj
-- **GitHub organization:** https://github.com/ncore-framework-official
-- **Product page:** https://github.com/ncore-framework-official/ncore-loading-screen
-- **ZOcre support:** https://github.com/ncore-framework-official/.github/blob/main/SUPPORT.md
+- **GitHub organization:** https://github.com/zocre-framework-official
+- **Product page:** https://github.com/zocre-framework-official/zocre-loading-screen
+- **ZOcre support:** https://github.com/zocre-framework-official/.github/blob/main/SUPPORT.md
 
 The current public NCore Loading Screen version is **0.5.1**.
 

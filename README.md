@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ncore-framework-official/.github/main/profile/assets/branding/ncore-loading-screen-official.webp" alt="ZOcre Loading Screen official visual identity" width="460">
+  <img src="https://raw.githubusercontent.com/zocre-framework-official/.github/main/profile/assets/branding/ncore-loading-screen-official.webp" alt="ZOcre Loading Screen official visual identity" width="460">
 </p>
 
 <h1 align="center">ZOcre Loading Screen</h1>
@@ -94,7 +94,7 @@ loading_screen = "ncore-loading-screen"
 ### Liens officiels
 
 - Discord officiel : https://discord.gg/Ey4dn4Cbqj
-- GitHub officiel : https://github.com/ncore-framework-official/ncore-loading-screen
+- GitHub officiel : https://github.com/zocre-framework-official/zocre-loading-screen
 - Vault / Store NANOS : https://nanos-world.com/store/packages/ncore-loading-screen
 - Soutenir ZOcre / Ko-fi : https://ko-fi.com/ncoreframework
 
@@ -181,7 +181,7 @@ loading_screen = "ncore-loading-screen"
 ### Official links
 
 - Official Discord: https://discord.gg/Ey4dn4Cbqj
-- Official GitHub: https://github.com/ncore-framework-official/ncore-loading-screen
+- Official GitHub: https://github.com/zocre-framework-official/zocre-loading-screen
 - NANOS Vault / Store: https://nanos-world.com/store/packages/ncore-loading-screen
 - Support ZOcre / Ko-fi: https://ko-fi.com/ncoreframework
 
@@ -199,6 +199,6 @@ ZOcre Loading Screen is proprietary ZOcre software. Rights for an official copy 
 ## Support public
 
 - Discord officiel : https://discord.gg/Ey4dn4Cbqj
-- Organisation ZOcre Framework : https://github.com/ncore-framework-official
+- Organisation ZOcre Framework : https://github.com/zocre-framework-official
 - Soutenir ZOcre / Ko-fi : https://ko-fi.com/ncoreframework
 - Support : [SUPPORT.md](SUPPORT.md)
