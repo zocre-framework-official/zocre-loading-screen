@@ -18,8 +18,8 @@
   </a>
 </p>
 
-> **Version GitHub : 0.5.2 — version Vault/Store : 0.5.1.**  
-> La mise à jour GitHub reprend l’identité ZOcre et son logo transparent. La version **0.5.1** déjà distribuée sur le Vault/Store NANOS reste inchangée. L’identifiant technique de package reste celui indiqué dans les instructions d’installation.
+> **Version actuelle : 0.5.2 — disponible sur GitHub et le Vault/Store NANOS.**
+> La même version 0.5.2 est disponible sur les deux plateformes. L’identifiant technique de package reste celui indiqué dans les instructions d’installation.
 
 ## Français
 
@@ -113,6 +113,8 @@ ZOcre Loading Screen est un logiciel propriétaire ZOcre. Les droits d'utilisati
 ---
 
 ## English
+
+**Current version: 0.5.2 — available on GitHub and the NANOS Vault/Store.**
 
 ### Overview
 

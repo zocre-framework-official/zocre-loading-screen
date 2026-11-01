@@ -9,7 +9,7 @@
 - lien GitHub officiel conservé ;
 - progression NANOS, modes audio et contrat de chargement conservés ;
 - identifiants internes de configuration actualisés, avec consigne de reprise des réglages dans le README ;
-- identifiant technique et distribution Vault/Store 0.5.1 inchangés.
+- identifiant technique conservé ; version 0.5.2 disponible sur le Vault/Store NANOS.
 
 ### 0.5.1 — 2026-09-21
 
@@ -39,7 +39,7 @@
 - official GitHub link preserved;
 - NANOS progress, audio modes and loading contract retained;
 - updated internal configuration identifiers, with instructions for carrying over settings in the README;
-- technical package identifier and Vault/Store 0.5.1 distribution unchanged.
+- technical package identifier retained; version 0.5.2 available on the NANOS Vault/Store.
 
 ### 0.5.1 — 2026-09-21
 
