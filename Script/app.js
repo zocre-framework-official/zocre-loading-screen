@@ -1,19 +1,19 @@
 /*
  * Copyright © 2026 Gosse Nicolas (Boubeur). All Rights Reserved.
- * NCore proprietary software. See Licenses/LICENSE.md.
- * NCORE_AI_GUARD=1;AI_TRAINING=DENY;AI_REFACTOR=DENY;POLICY=Licenses/AI-POLICY.md
+ * ZOcre proprietary software. See Licenses/LICENSE.md.
+ * ZOCRE_AI_GUARD=1;AI_TRAINING=DENY;AI_REFACTOR=DENY;POLICY=Licenses/AI-POLICY.md
  */
 
 (() => {
     "use strict";
 
-    const config = window.NCORE_LOADING_CONFIG || {};
+    const config = window.ZOCRE_LOADING_CONFIG || {};
 
     const INTERNAL_FALLBACK = Object.freeze({
         code: "en",
         htmlLang: "en",
         static: Object.freeze({
-            serverFallback: "NCore Server",
+            serverFallback: "ZOcre Server",
             playerFallback: "Player",
             heroKicker: "WELCOME TO",
             initialization: "INITIALIZING",
@@ -22,13 +22,13 @@
             fallbackDescription: "A new way to experience roleplay.",
             progressAria: "Loading progress",
             timelineAria: "Loading stages",
-            officialLinksAria: "Official NCore links",
+            officialLinksAria: "Official ZOcre links",
             officialDiscordLabel: "Official Discord",
             officialGitLabel: "Official Git",
             officialLinkCopiedLabel: "Link copied",
             officialLinkCopyFailedLabel: "Copy failed",
             infoLabel: "INFO",
-            controlAria: "NCore Control",
+            controlAria: "ZOcre Control",
             controlSubtitle: "INSTALLATION · MANAGEMENT · NANOS",
             productSubtitle: "FRAMEWORK · NANOS",
             musicStateIdle: "READY",
@@ -48,7 +48,7 @@
             finishing: "Finishing"
         }),
         tips: Object.freeze([
-            "NCore is preparing your game environment."
+            "ZOcre is preparing your game environment."
         ]),
         preview: Object.freeze({
             primary: "Loading assets",
@@ -105,8 +105,8 @@
         volumeValue: document.getElementById("volumeValue"),
         audioState: document.getElementById("audioState"),
         musicToggle: document.getElementById("musicToggle"),
-        ncoreControlBrand: document.getElementById("ncoreControlBrand"),
-        ncoreControlSubtitle: document.getElementById("ncoreControlSubtitle"),
+        zocreControlBrand: document.getElementById("zocreControlBrand"),
+        zocreControlSubtitle: document.getElementById("zocreControlSubtitle"),
         officialLinks: document.getElementById("officialLinks"),
         officialDiscordLink: document.getElementById("officialDiscordLink"),
         officialGitLink: document.getElementById("officialGitLink")
@@ -171,8 +171,8 @@
     }
 
     function getLanguageRegistry() {
-        window.NCORE_LOADING_LANGUAGES = window.NCORE_LOADING_LANGUAGES || {};
-        return window.NCORE_LOADING_LANGUAGES;
+        window.ZOCRE_LOADING_LANGUAGES = window.ZOCRE_LOADING_LANGUAGES || {};
+        return window.ZOCRE_LOADING_LANGUAGES;
     }
 
     function loadLanguageScript(code) {
@@ -207,7 +207,7 @@
             return await loadLanguageScript(requestedCode);
         } catch (requestedError) {
             if (config.debug) {
-                console.warn("[NCore Loading] Requested language unavailable", requestedCode, requestedError);
+                console.warn("[ZOcre Loading] Requested language unavailable", requestedCode, requestedError);
             }
         }
 
@@ -216,7 +216,7 @@
                 return await loadLanguageScript(fallbackCode);
             } catch (fallbackError) {
                 if (config.debug) {
-                    console.warn("[NCore Loading] Fallback language unavailable", fallbackCode, fallbackError);
+                    console.warn("[ZOcre Loading] Fallback language unavailable", fallbackCode, fallbackError);
                 }
             }
         }
@@ -276,7 +276,7 @@
             els.audioState.title = normalizedDetail;
         }
 
-        window.NCORE_LOADING_DIAGNOSTICS = Object.freeze({
+        window.ZOCRE_LOADING_DIAGNOSTICS = Object.freeze({
             audio: Object.freeze({
                 status: normalizedStatus,
                 detail: normalizedDetail,
@@ -292,7 +292,7 @@
             const logger = level === "error" ? console.error
                 : level === "warning" ? console.warn
                 : console.info;
-            logger("[NCore Loading][Audio]", normalizedStatus, normalizedDetail);
+            logger("[ZOcre Loading][Audio]", normalizedStatus, normalizedDetail);
         }
     }
 
@@ -505,7 +505,7 @@
         }
 
         if (els.officialLinks) {
-            els.officialLinks.setAttribute("aria-label", text("static.officialLinksAria", "Official NCore links"));
+            els.officialLinks.setAttribute("aria-label", text("static.officialLinksAria", "Official ZOcre links"));
         }
 
         if (els.officialDiscordLink) {
@@ -520,12 +520,12 @@
             els.tipLabel.textContent = text("static.infoLabel", "INFO");
         }
 
-        if (els.ncoreControlBrand) {
-            els.ncoreControlBrand.setAttribute("aria-label", text("static.controlAria", "NCore Control"));
+        if (els.zocreControlBrand) {
+            els.zocreControlBrand.setAttribute("aria-label", text("static.controlAria", "ZOcre Control"));
         }
 
-        if (els.ncoreControlSubtitle) {
-            els.ncoreControlSubtitle.textContent = text("static.controlSubtitle", "INSTALLATION · MANAGEMENT · NANOS");
+        if (els.zocreControlSubtitle) {
+            els.zocreControlSubtitle.textContent = text("static.controlSubtitle", "INSTALLATION · MANAGEMENT · NANOS");
         }
 
         stageDefinitions.forEach((definition) => {
@@ -600,7 +600,7 @@
         document.body.dataset.stage = String(stage);
 
         if (config.debug) {
-            console.debug("[NCore Loading] UpdateScreen", {
+            console.debug("[ZOcre Loading] UpdateScreen", {
                 message,
                 messageSecondary,
                 progressSmall,
@@ -630,7 +630,7 @@
         const info = window.LoadingScreen;
         if (!info?.server) return false;
 
-        const fallbackName = config.brand?.fallbackServerName || "NCore";
+        const fallbackName = config.brand?.fallbackServerName || "ZOcre";
         const fallbackDescription = text("static.fallbackDescription", "");
         const serverName = info.server.name || fallbackName;
 
@@ -815,7 +815,7 @@
 
                 return true;
             } catch (error) {
-                if (config.debug) console.warn("[NCore Loading] StopMenuMusic failed", error);
+                if (config.debug) console.warn("[ZOcre Loading] StopMenuMusic failed", error);
             }
         }
 
@@ -917,7 +917,7 @@
         } catch (error) {
             setAudioStatus("error", "local-audio-fetch-error", "error");
             if (config.debug) {
-                console.warn("[NCore Loading] Local audio fetch failed", error);
+                console.warn("[ZOcre Loading] Local audio fetch failed", error);
             }
             return "";
         }
@@ -948,11 +948,11 @@
             const result = els.loadingMusic.play?.();
             result?.catch?.((error) => {
                 requestMusicGesture("html-audio-autoplay-blocked");
-                if (config.debug) console.warn("[NCore Loading] Music autoplay delayed", error);
+                if (config.debug) console.warn("[ZOcre Loading] Music autoplay delayed", error);
             });
         } catch (error) {
             requestMusicGesture("html-audio-autoplay-blocked");
-            if (config.debug) console.warn("[NCore Loading] Music autoplay delayed", error);
+            if (config.debug) console.warn("[ZOcre Loading] Music autoplay delayed", error);
         }
 
         return true;
@@ -1104,7 +1104,7 @@
         }
 
         state.youtubeApiPromise = new Promise((resolve, reject) => {
-            const existing = document.querySelector('script[data-ncore-youtube-api="1"]');
+            const existing = document.querySelector('script[data-zocre-youtube-api="1"]');
             const previousReady = window.onYouTubeIframeAPIReady;
             let settled = false;
 
@@ -1127,7 +1127,7 @@
                 const script = document.createElement("script");
                 script.src = apiScript;
                 script.async = true;
-                script.dataset.ncoreYoutubeApi = "1";
+                script.dataset.zocreYoutubeApi = "1";
                 script.onerror = () => {
                     if (settled) return;
                     settled = true;
@@ -1211,12 +1211,12 @@
                                 try {
                                     if (!state.musicPaused) event.target.playVideo();
                                 } catch (error) {
-                                    if (config.debug) console.warn("[NCore Loading] YouTube delayed play failed", error);
+                                    if (config.debug) console.warn("[ZOcre Loading] YouTube delayed play failed", error);
                                     startYouTubeFallback(music, "youtube-play-failed");
                                 }
                             }, 150);
                         } catch (error) {
-                            if (config.debug) console.warn("[NCore Loading] YouTube ready failed", error);
+                            if (config.debug) console.warn("[ZOcre Loading] YouTube ready failed", error);
                             startYouTubeFallback(music, "youtube-ready-failed");
                         }
                     },
@@ -1278,7 +1278,7 @@
                             } catch (_) {}
                         }
 
-                        if (config.debug) console.warn("[NCore Loading] YouTube player error", event.data);
+                        if (config.debug) console.warn("[ZOcre Loading] YouTube player error", event.data);
                         startYouTubeFallback(music, reason);
                     }
                 }
@@ -1297,7 +1297,7 @@
 
             return true;
         } catch (error) {
-            if (config.debug) console.warn("[NCore Loading] YouTube API unavailable", error);
+            if (config.debug) console.warn("[ZOcre Loading] YouTube API unavailable", error);
             startYouTubeFallback(music, "youtube-api-unavailable");
             return false;
         }
@@ -1349,7 +1349,7 @@
     function subscribeToNanosLoading() {
         if (!window.Events || typeof window.Events.Subscribe !== "function") {
             if (config.debug) {
-                console.warn("[NCore Loading] NANOS Events bridge unavailable (preview mode).");
+                console.warn("[ZOcre Loading] NANOS Events bridge unavailable (preview mode).");
             }
 
             return;
@@ -1446,8 +1446,8 @@
             els.stageTimeline.hidden = true;
         }
 
-        if (config.brand?.showNCoreControlBranding === false && els.ncoreControlBrand) {
-            els.ncoreControlBrand.hidden = true;
+        if (config.brand?.showZOcreControlBranding === false && els.zocreControlBrand) {
+            els.zocreControlBrand.hidden = true;
         }
     }
 

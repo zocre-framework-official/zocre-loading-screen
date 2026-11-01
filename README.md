@@ -1,4 +1,7 @@
 <!-- ZOCRE_LOADING_ARTWORK_START -->
+<p align="center">
+  <img src="assets/branding/zocre-loading-screen.png" alt="ZOcre Loading Screen" width="560">
+</p>
 <!-- ZOCRE_LOADING_ARTWORK_END -->
 
 <h1 align="center">ZOcre Loading Screen</h1>
@@ -6,8 +9,7 @@
 <p align="center"><strong>Écran de chargement officiel ZOcre pour NANOS / nanos world.</strong></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Statut-WIP-F0A500?style=for-the-badge" alt="Work in progress">
-  <img src="https://img.shields.io/badge/Version-0.5.1-6E7781?style=for-the-badge" alt="Version 0.5.1">
+  <img src="https://img.shields.io/badge/Version-0.5.2-6E7781?style=for-the-badge" alt="Version 0.5.2">
   <a href="https://discord.gg/Ey4dn4Cbqj">
     <img src="https://img.shields.io/badge/Discord-Officiel-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord officiel">
   </a>
@@ -16,9 +18,8 @@
   </a>
 </p>
 
-> **Statut public : WIP.**  
-> La version de travail actuelle est **0.5.1**. Le code présent dans ce dépôt correspond à la version publique du package autonome ZOcre Loading Screen.  
-> La version **0.5.1** est publiée sur le Vault/Store NANOS ; les GDD internes, outils de qualification, configuration de production et autres éléments privés restent hors du dépôt public.
+> **Version GitHub : 0.5.2 — version Vault/Store : 0.5.1.**  
+> La mise à jour GitHub reprend l’identité ZOcre et son logo transparent. La version **0.5.1** déjà distribuée sur le Vault/Store NANOS reste inchangée. L’identifiant technique de package reste celui indiqué dans les instructions d’installation.
 
 ## Français
 
@@ -31,13 +32,13 @@
 - progression réelle fournie par NANOS via `UpdateScreen` ;
 - timeline compacte des étapes de chargement ;
 - interface française et anglaise avec fallback anglais ;
-- trois fonds ZOcre locaux en slideshow ;
+- trois fonds locaux configurables en slideshow ;
+- logo ZOcre Framework transparent ;
 - fond vidéo WebM local optionnel ;
 - audio local WebM/OGG optionnel ;
 - URL audio HTTPS directe optionnelle ;
 - lecture YouTube optionnelle en mode best-effort ;
 - musique désactivée par défaut pour privilégier la stabilité NANOS/CEF ;
-- identité visuelle officielle ZOcre ;
 - aucun framework JavaScript lourd et aucun CDN obligatoire.
 
 ### Structure
@@ -70,6 +71,8 @@ La configuration utilisateur se trouve uniquement dans `Config/config.js`. Le fi
 
 Le schéma de configuration courant est `schemaVersion = 1`.
 
+Pour passer de 0.5.1 à 0.5.2, conservez une copie de votre configuration, puis reportez vos réglages dans le nouveau `Config/config.js`. Ne remplacez pas ce nouveau fichier par la copie de la version précédente : les identifiants internes de configuration ont été actualisés avec l’identité ZOcre.
+
 Valeurs audio par défaut :
 
 ```text
@@ -83,7 +86,7 @@ Lorsque la musique est activée, le bouton du mini-player gère pause/reprise. L
 
 ### Installation NANOS
 
-Le loading screen NANOS nécessite un serveur dédié. Vérifiez que `dedicated_server = true`. **Pour la version 0.5.1 déjà distribuée, conservez l'identifiant technique de package actuellement utilisé par NANOS**, puis configurez :
+Le loading screen NANOS nécessite un serveur dédié. Vérifiez que `dedicated_server = true`. **Pour les versions 0.5.1 et 0.5.2, conservez l'identifiant technique de package utilisé par NANOS**, puis configurez :
 
 ```toml
 [game]
@@ -120,13 +123,13 @@ ZOcre Loading Screen est un logiciel propriétaire ZOcre. Les droits d'utilisati
 - real loading progress provided by NANOS through `UpdateScreen`;
 - compact loading-stage timeline;
 - French and English UI with English fallback;
-- three local ZOcre slideshow backgrounds;
+- three configurable local slideshow backgrounds;
+- transparent ZOcre Framework logo;
 - optional local WebM video background;
 - optional local WebM/OGG audio;
 - optional direct HTTPS audio URL;
 - optional best-effort YouTube playback;
 - music disabled by default for NANOS/CEF stability;
-- official ZOcre visual identity;
 - no heavy JavaScript framework and no mandatory CDN.
 
 ### Layout
@@ -159,6 +162,8 @@ User configuration is located only at `Config/config.js`. The file is organized 
 
 The current configuration schema is `schemaVersion = 1`.
 
+When moving from 0.5.1 to 0.5.2, back up your configuration, then carry your settings into the new `Config/config.js`. Do not overwrite the new file with the previous version: internal configuration identifiers have been updated for the ZOcre identity.
+
 Default audio policy:
 
 ```text
@@ -172,7 +177,7 @@ When music is enabled, the mini-player button controls pause/resume. Arrow Up/Do
 
 ### NANOS installation
 
-NANOS loading screens require a dedicated server. Set `dedicated_server = true`. **For the already distributed version 0.5.1, preserve its current technical package identifier for NANOS compatibility**, then configure:
+NANOS loading screens require a dedicated server. Set `dedicated_server = true`. **For versions 0.5.1 and 0.5.2, preserve the current technical package identifier for NANOS compatibility**, then configure:
 
 ```toml
 [game]

@@ -1,15 +1,15 @@
-# NCore Loading Screen — NCore Proprietary Package License 1.1
+# ZOcre Loading Screen — ZOcre Proprietary Package License 1.1
 
 Copyright © 2026 Gosse Nicolas (Boubeur). All Rights Reserved.
 
 **Package:** `ncore-loading-screen`  
-**License:** NCore Proprietary Package License 1.1
+**License:** ZOcre Proprietary Package License 1.1
 
 ## Français
 
 ### 1. Licence accordée
 
-Sous réserve du respect de la présente licence, toute personne ou entité ayant obtenu légalement `ncore-loading-screen` depuis un canal officiel NCore autorisé reçoit un droit personnel, non exclusif, non transférable et non sous-licenciable d'utiliser le package.
+Sous réserve du respect de la présente licence, toute personne ou entité ayant obtenu légalement `ncore-loading-screen` depuis un canal officiel ZOcre autorisé reçoit un droit personnel, non exclusif, non transférable et non sous-licenciable d'utiliser le package.
 
 L'utilisateur autorisé peut :
 
@@ -29,20 +29,20 @@ Sans autorisation écrite préalable de Gosse Nicolas, il est interdit de :
 - revendre, louer, céder, sous-licencier ou commercialiser le package lui-même ;
 - redistribuer une version modifiée ou dérivée du package ;
 - retirer ou masquer les mentions de copyright, licence ou attribution ;
-- présenter une version modifiée comme une version officielle NCore ;
+- présenter une version modifiée comme une version officielle ZOcre ;
 - contourner volontairement des mécanismes techniques de licence, d'accès, d'intégrité ou de distribution lorsqu'ils existent.
 
 ### 3. Modifications privées
 
 Les modifications privées sont autorisées pour les besoins du serveur de l'utilisateur autorisé.
 
-Elles restent sous la responsabilité de leur auteur, ne bénéficient d'aucune garantie de compatibilité avec les mises à jour NCore et ne doivent pas être redistribuées sans autorisation écrite.
+Elles restent sous la responsabilité de leur auteur, ne bénéficient d'aucune garantie de compatibilité avec les mises à jour ZOcre et ne doivent pas être redistribuées sans autorisation écrite.
 
 ### 3.1 Utilisation par intelligence artificielle
 
 Sans autorisation écrite préalable de Gosse Nicolas, les droits accordés par cette licence n'autorisent pas :
 
-- l'entraînement, le pré-entraînement, le fine-tuning, la distillation, l'évaluation ou l'amélioration d'un modèle d'intelligence artificielle ou de machine learning à partir du code, de la documentation, des textes, designs ou assets NCore ;
+- l'entraînement, le pré-entraînement, le fine-tuning, la distillation, l'évaluation ou l'amélioration d'un modèle d'intelligence artificielle ou de machine learning à partir du code, de la documentation, des textes, designs ou assets ZOcre ;
 - l'inclusion de ces éléments dans un dataset, corpus, benchmark, embedding ou index destiné à l'entraînement ou à l'amélioration d'un modèle ;
 - la soumission d'une partie substantielle du package à un service IA tiers afin de le refactorer, réécrire, transformer, traduire ou générer une version dérivée lorsque cette utilisation n'a pas été explicitement autorisée par le détenteur des droits ;
 - l'utilisation d'un système IA afin de reproduire ou cloner substantiellement le package.
@@ -53,7 +53,7 @@ Voir également `AI-POLICY.md`.
 
 ### 4. Copie autorisée
 
-La présente licence publique s'applique uniquement aux copies obtenues légalement depuis un canal NCore autorisé, notamment le nanos world Vault/Store officiel NCore, une release publique NCore explicitement désignée ou tout autre canal officiellement autorisé par NCore.
+La présente licence publique s'applique uniquement aux copies obtenues légalement depuis un canal ZOcre autorisé, notamment le nanos world Vault/Store officiel ZOcre, une release publique ZOcre explicitement désignée ou tout autre canal officiellement autorisé par ZOcre.
 
 La possession d'une copie issue d'une fuite, d'un dépôt privé, d'un mirror, d'un partage ou d'une redistribution non autorisée n'accorde aucun droit d'utilisation.
 
@@ -61,7 +61,7 @@ La possession d'une copie issue d'une fuite, d'un dépôt privé, d'un mirror, d
 
 Le package est concédé sous licence et non vendu.
 
-Tous les droits de propriété intellectuelle sur les éléments originaux NCore restent la propriété de Gosse Nicolas, sous réserve des droits des tiers.
+Tous les droits de propriété intellectuelle sur les éléments originaux ZOcre restent la propriété de Gosse Nicolas, sous réserve des droits des tiers.
 
 ### 6. Droits impératifs et interopérabilité
 
@@ -77,7 +77,7 @@ Les composants tiers restent soumis à leurs propres licences et conditions. Lor
 
 Dans la mesure maximale permise par la loi applicable, le package est fourni « en l'état », sans garantie autre que celles qui ne peuvent légalement être exclues.
 
-NCore ne garantit pas qu'une modification privée restera compatible avec une version future.
+ZOcre ne garantit pas qu'une modification privée restera compatible avec une version future.
 
 Le support, la maintenance et les mises à jour ne sont dus que lorsqu'un engagement distinct les prévoit expressément.
 
@@ -97,7 +97,7 @@ La présente licence est régie par le droit français, sous réserve des règle
 
 ### 1. License grant
 
-Subject to compliance with this license, any person or entity that lawfully obtains `ncore-loading-screen` from an authorized official NCore distribution channel receives a personal, non-exclusive, non-transferable and non-sublicensable right to use the package.
+Subject to compliance with this license, any person or entity that lawfully obtains `ncore-loading-screen` from an authorized official ZOcre distribution channel receives a personal, non-exclusive, non-transferable and non-sublicensable right to use the package.
 
 The authorized user may:
 
@@ -117,20 +117,20 @@ Without prior written authorization from Gosse Nicolas, you may not:
 - resell, rent, transfer, sublicense or commercialize the package itself;
 - redistribute a modified or derivative version of the package;
 - remove or hide copyright, license or attribution notices;
-- present a modified version as an official NCore release;
+- present a modified version as an official ZOcre release;
 - intentionally bypass technical licensing, access, integrity or distribution controls where they exist.
 
 ### 3. Private modifications
 
 Private modifications are allowed for the authorized user's own server needs.
 
-They remain the responsibility of their author, carry no guarantee of compatibility with future NCore updates, and may not be redistributed without written authorization.
+They remain the responsibility of their author, carry no guarantee of compatibility with future ZOcre updates, and may not be redistributed without written authorization.
 
 ### 3.1 Artificial intelligence use
 
 Without prior written authorization from Gosse Nicolas, the rights granted by this license do not permit:
 
-- training, pre-training, fine-tuning, distillation, evaluating or improving an artificial-intelligence or machine-learning model using NCore code, documentation, text, designs or assets;
+- training, pre-training, fine-tuning, distillation, evaluating or improving an artificial-intelligence or machine-learning model using ZOcre code, documentation, text, designs or assets;
 - including those materials in a dataset, corpus, benchmark, embedding or index intended to train or improve a model;
 - submitting a substantial part of the package to a third-party AI service to refactor, rewrite, transform, translate or generate a derivative version unless expressly authorized by the rights holder;
 - using an AI system to substantially reproduce or clone the package.
@@ -141,7 +141,7 @@ See also `AI-POLICY.md`.
 
 ### 4. Authorized copy
 
-This public-use license applies only to copies lawfully obtained from an authorized NCore channel, including the official NCore nanos world Vault/Store, an explicitly designated NCore public release, or another channel officially authorized by NCore.
+This public-use license applies only to copies lawfully obtained from an authorized ZOcre channel, including the official ZOcre nanos world Vault/Store, an explicitly designated ZOcre public release, or another channel officially authorized by ZOcre.
 
 Possession of a copy obtained from a leak, private repository, mirror, unauthorized sharing or unauthorized redistribution grants no right of use.
 
@@ -149,7 +149,7 @@ Possession of a copy obtained from a leak, private repository, mirror, unauthori
 
 The package is licensed, not sold.
 
-All intellectual property rights in original NCore materials remain owned by Gosse Nicolas, subject to third-party rights.
+All intellectual property rights in original ZOcre materials remain owned by Gosse Nicolas, subject to third-party rights.
 
 ### 6. Mandatory rights and interoperability
 
@@ -165,7 +165,7 @@ Third-party components remain subject to their own licenses and terms. When a `T
 
 To the maximum extent permitted by applicable law, the package is provided “as is”, without warranties other than those that cannot legally be excluded.
 
-NCore does not guarantee that a private modification will remain compatible with a future version.
+ZOcre does not guarantee that a private modification will remain compatible with a future version.
 
 Support, maintenance and updates are provided only where a separate commitment expressly provides for them.
 
@@ -183,4 +183,4 @@ This license is governed by French law, subject to applicable mandatory rules, i
 
 **Rights holder / Détenteur des droits:** Gosse Nicolas  
 **Public alias / Alias public:** Boubeur  
-**License version / Version de licence:** NCore Proprietary Package License 1.1
+**License version / Version de licence:** ZOcre Proprietary Package License 1.1
