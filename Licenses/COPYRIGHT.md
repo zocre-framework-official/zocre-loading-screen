@@ -1,4 +1,4 @@
-# ZOcre Loading Screen — Copyright / Droit d’auteur
+# NCore Loading Screen — Copyright / Droit d’auteur
 
 Copyright © 2026 Gosse Nicolas (Boubeur). All Rights Reserved.
 
@@ -6,7 +6,7 @@ Copyright © 2026 Gosse Nicolas (Boubeur). All Rights Reserved.
 
 ## Français
 
-Sauf mention explicite contraire, le code, la documentation, les textes, designs, assets et autres éléments originaux ZOcre de `ncore-loading-screen` sont protégés par le droit d'auteur et appartiennent à Gosse Nicolas.
+Sauf mention explicite contraire, le code, la documentation, les textes, designs, assets et autres éléments originaux NCore de `ncore-loading-screen` sont protégés par le droit d'auteur et appartiennent à Gosse Nicolas.
 
 Les droits d'utilisation, de modification privée, de distribution et les restrictions applicables sont définis exclusivement par `LICENSE.md`.
 
@@ -14,7 +14,7 @@ Les composants tiers restent la propriété de leurs titulaires respectifs et de
 
 ## English
 
-Unless explicitly stated otherwise, the original ZOcre code, documentation, text, designs, assets and other original materials in `ncore-loading-screen` are protected by copyright and owned by Gosse Nicolas.
+Unless explicitly stated otherwise, the original NCore code, documentation, text, designs, assets and other original materials in `ncore-loading-screen` are protected by copyright and owned by Gosse Nicolas.
 
 Permissions for use, private modification, distribution and applicable restrictions are governed exclusively by `LICENSE.md`.
 
