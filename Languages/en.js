@@ -1,17 +1,17 @@
 /*
  * Copyright © 2026 Gosse Nicolas (Boubeur). All Rights Reserved.
- * NCore proprietary software. See Licenses/LICENSE.md.
- * NCORE_AI_GUARD=1;AI_TRAINING=DENY;AI_REFACTOR=DENY;POLICY=Licenses/AI-POLICY.md
+ * ZOcre proprietary software. See Licenses/LICENSE.md.
+ * ZOCRE_AI_GUARD=1;AI_TRAINING=DENY;AI_REFACTOR=DENY;POLICY=Licenses/AI-POLICY.md
  */
 
-window.NCORE_LOADING_LANGUAGES = window.NCORE_LOADING_LANGUAGES || {};
+window.ZOCRE_LOADING_LANGUAGES = window.ZOCRE_LOADING_LANGUAGES || {};
 
-window.NCORE_LOADING_LANGUAGES.en = Object.freeze({
+window.ZOCRE_LOADING_LANGUAGES.en = Object.freeze({
     code: "en",
     htmlLang: "en",
 
     static: {
-        serverFallback: "NCore Server",
+        serverFallback: "ZOcre Server",
         playerFallback: "Player",
         heroKicker: "WELCOME TO",
         initialization: "INITIALIZING",
@@ -20,13 +20,13 @@ window.NCORE_LOADING_LANGUAGES.en = Object.freeze({
         fallbackDescription: "A new way to experience roleplay.",
         progressAria: "Loading progress",
         timelineAria: "Loading stages",
-        officialLinksAria: "Official NCore links",
+        officialLinksAria: "Official ZOcre links",
         officialDiscordLabel: "Official Discord",
         officialGitLabel: "Official Git",
         officialLinkCopiedLabel: "Link copied",
         officialLinkCopyFailedLabel: "Copy failed",
         infoLabel: "INFO",
-        controlAria: "NCore Control",
+        controlAria: "ZOcre Control",
         controlSubtitle: "INSTALLATION · MANAGEMENT · NANOS",
         productSubtitle: "FRAMEWORK · NANOS",
         musicControlsAria: "Music controls",
@@ -53,7 +53,7 @@ window.NCORE_LOADING_LANGUAGES.en = Object.freeze({
     },
 
     tips: [
-        "NCore is preparing your game environment.",
+        "ZOcre is preparing your game environment.",
         "Displayed progress values come directly from NANOS.",
         "A first connection may take longer while assets are being downloaded.",
         "Shaders are compiled by NANOS before your session is finalized."

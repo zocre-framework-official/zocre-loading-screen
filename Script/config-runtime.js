@@ -1,7 +1,7 @@
 /*
  * Copyright © 2026 Gosse Nicolas (Boubeur). All Rights Reserved.
- * NCore proprietary software. See Licenses/LICENSE.md.
- * NCORE_AI_GUARD=1;AI_TRAINING=DENY;AI_REFACTOR=DENY;POLICY=Licenses/AI-POLICY.md
+ * ZOcre proprietary software. See Licenses/LICENSE.md.
+ * ZOCRE_AI_GUARD=1;AI_TRAINING=DENY;AI_REFACTOR=DENY;POLICY=Licenses/AI-POLICY.md
  */
 (() => {
     "use strict";
@@ -13,9 +13,9 @@
         fallbackLanguage: "en",
 
         brand: {
-            fallbackServerName: "NCore",
+            fallbackServerName: "ZOcre",
             showServerDescription: true,
-            showNCoreControlBranding: true
+            showZOcreControlBranding: false
         },
 
         officialLinks: {
@@ -36,9 +36,9 @@
             slideshow: {
                 intervalMs: 8000,
                 images: [
-                    "assets/backgrounds/ncore-01.svg",
-                    "assets/backgrounds/ncore-02.svg",
-                    "assets/backgrounds/ncore-03.svg"
+                    "assets/backgrounds/zocre-01.svg",
+                    "assets/backgrounds/zocre-02.svg",
+                    "assets/backgrounds/zocre-03.svg"
                 ]
             },
             video: {
@@ -81,7 +81,7 @@
         customTips: [],
         debug: false
     });
-    const user = window.NCORE_LOADING_USER_CONFIG || {};
+    const user = window.ZOCRE_LOADING_USER_CONFIG || {};
 
     function isPlainObject(value) {
         return value !== null
@@ -189,9 +189,9 @@
         normalized.fallbackLanguage = language(normalized.fallbackLanguage, "en");
 
         normalized.brand = normalized.brand || {};
-        normalized.brand.fallbackServerName = string(normalized.brand.fallbackServerName, "NCore", 96);
+        normalized.brand.fallbackServerName = string(normalized.brand.fallbackServerName, "ZOcre", 96);
         normalized.brand.showServerDescription = bool(normalized.brand.showServerDescription, true);
-        normalized.brand.showNCoreControlBranding = bool(normalized.brand.showNCoreControlBranding, true);
+        normalized.brand.showZOcreControlBranding = bool(normalized.brand.showZOcreControlBranding, false);
 
         normalized.officialLinks = normalized.officialLinks || {};
         normalized.officialLinks.discordUrl = httpsUrl(normalized.officialLinks.discordUrl, "");
@@ -299,16 +299,16 @@
     const userSchema = Number(user.schemaVersion);
 
     if (fallbackSchema !== SUPPORTED_SCHEMA) {
-        throw new Error("[NCore Loading] Unsupported internal fallback schema");
+        throw new Error("[ZOcre Loading] Unsupported internal fallback schema");
     }
 
     if (userSchema !== SUPPORTED_SCHEMA) {
         console.warn(
-            "[NCore Loading] User config schema is not supported; internal safe fallbacks are used."
+            "[ZOcre Loading] User config schema is not supported; internal safe fallbacks are used."
         );
-        window.NCORE_LOADING_CONFIG = normalize({});
+        window.ZOCRE_LOADING_CONFIG = normalize({});
         return;
     }
 
-    window.NCORE_LOADING_CONFIG = normalize(user);
+    window.ZOCRE_LOADING_CONFIG = normalize(user);
 })();

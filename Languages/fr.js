@@ -1,17 +1,17 @@
 /*
  * Copyright © 2026 Gosse Nicolas (Boubeur). All Rights Reserved.
- * NCore proprietary software. See Licenses/LICENSE.md.
- * NCORE_AI_GUARD=1;AI_TRAINING=DENY;AI_REFACTOR=DENY;POLICY=Licenses/AI-POLICY.md
+ * ZOcre proprietary software. See Licenses/LICENSE.md.
+ * ZOCRE_AI_GUARD=1;AI_TRAINING=DENY;AI_REFACTOR=DENY;POLICY=Licenses/AI-POLICY.md
  */
 
-window.NCORE_LOADING_LANGUAGES = window.NCORE_LOADING_LANGUAGES || {};
+window.ZOCRE_LOADING_LANGUAGES = window.ZOCRE_LOADING_LANGUAGES || {};
 
-window.NCORE_LOADING_LANGUAGES.fr = Object.freeze({
+window.ZOCRE_LOADING_LANGUAGES.fr = Object.freeze({
     code: "fr",
     htmlLang: "fr",
 
     static: {
-        serverFallback: "NCore Server",
+        serverFallback: "ZOcre Server",
         playerFallback: "Joueur",
         heroKicker: "BIENVENUE SUR",
         initialization: "INITIALISATION",
@@ -20,13 +20,13 @@ window.NCORE_LOADING_LANGUAGES.fr = Object.freeze({
         fallbackDescription: "Une nouvelle façon de vivre le roleplay.",
         progressAria: "Progression du chargement",
         timelineAria: "Étapes de chargement",
-        officialLinksAria: "Liens officiels NCore",
+        officialLinksAria: "Liens officiels ZOcre",
         officialDiscordLabel: "Discord officiel",
         officialGitLabel: "Git officiel",
         officialLinkCopiedLabel: "Lien copié",
         officialLinkCopyFailedLabel: "Copie impossible",
         infoLabel: "INFO",
-        controlAria: "NCore Control",
+        controlAria: "ZOcre Control",
         controlSubtitle: "INSTALLATION · GESTION · NANOS",
         productSubtitle: "FRAMEWORK · NANOS",
         musicControlsAria: "Contrôles de la musique",
@@ -53,7 +53,7 @@ window.NCORE_LOADING_LANGUAGES.fr = Object.freeze({
     },
 
     tips: [
-        "NCore prépare votre environnement de jeu.",
+        "ZOcre prépare votre environnement de jeu.",
         "Les progressions affichées proviennent directement de NANOS.",
         "Une première connexion peut être plus longue lorsque des assets doivent être téléchargés.",
         "Les shaders sont compilés par NANOS avant la finalisation de votre session."

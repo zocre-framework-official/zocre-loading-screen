@@ -1,10 +1,10 @@
 /*
  * Copyright © 2026 Gosse Nicolas (Boubeur). All Rights Reserved.
- * NCore proprietary software. See Licenses/LICENSE.md.
- * NCORE_AI_GUARD=1;AI_TRAINING=DENY;AI_REFACTOR=DENY;POLICY=Licenses/AI-POLICY.md
+ * ZOcre proprietary software. See Licenses/LICENSE.md.
+ * ZOCRE_AI_GUARD=1;AI_TRAINING=DENY;AI_REFACTOR=DENY;POLICY=Licenses/AI-POLICY.md
  */
 
-window.NCORE_LOADING_USER_CONFIG = Object.freeze({
+window.ZOCRE_LOADING_USER_CONFIG = Object.freeze({
     schemaVersion: 1,
 
     // Language
@@ -14,9 +14,9 @@ window.NCORE_LOADING_USER_CONFIG = Object.freeze({
 
     // Branding
     brand: {
-        fallbackServerName: "NCore",
+        fallbackServerName: "ZOcre",
         showServerDescription: true,
-        showNCoreControlBranding: true
+        showZOcreControlBranding: false
     },
 
     // Theme
@@ -37,9 +37,9 @@ window.NCORE_LOADING_USER_CONFIG = Object.freeze({
             intervalMs: 8000,
             // Relative paths to package images.
             images: [
-                "assets/backgrounds/ncore-01.svg",
-                "assets/backgrounds/ncore-02.svg",
-                "assets/backgrounds/ncore-03.svg"
+                "assets/backgrounds/zocre-01.svg",
+                "assets/backgrounds/zocre-02.svg",
+                "assets/backgrounds/zocre-03.svg"
             ]
         },
 

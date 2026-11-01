@@ -2,6 +2,15 @@
 
 ## Français
 
+### 0.5.2 — 2026-11-01
+
+- identité affichée ZOcre et logo Framework transparent ;
+- libellés FR/EN, métadonnées et références des médias cohérents ;
+- lien GitHub officiel conservé ;
+- progression NANOS, modes audio et contrat de chargement conservés ;
+- identifiants internes de configuration actualisés, avec consigne de reprise des réglages dans le README ;
+- identifiant technique et distribution Vault/Store 0.5.1 inchangés.
+
 ### 0.5.1 — 2026-09-21
 
 - structure canonique finale pour la distribution publique ;
@@ -22,6 +31,15 @@
 ---
 
 ## English
+
+### 0.5.2 — 2026-11-01
+
+- displayed ZOcre identity and transparent Framework logo;
+- consistent French/English labels, metadata and media references;
+- official GitHub link preserved;
+- NANOS progress, audio modes and loading contract retained;
+- updated internal configuration identifiers, with instructions for carrying over settings in the README;
+- technical package identifier and Vault/Store 0.5.1 distribution unchanged.
 
 ### 0.5.1 — 2026-09-21
 
