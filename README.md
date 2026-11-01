@@ -71,7 +71,7 @@ La configuration utilisateur se trouve uniquement dans `Config/config.js`. Le fi
 
 Le schéma de configuration courant est `schemaVersion = 1`.
 
-Pour passer de 0.5.1 à 0.5.2, conservez une copie de votre configuration, puis reportez vos réglages dans le nouveau `Config/config.js`. Ne remplacez pas ce nouveau fichier par la copie de la version précédente : les identifiants internes de configuration ont été actualisés avec l’identité ZOcre.
+Personnalisez vos réglages dans `Config/config.js` et conservez-en une copie de sauvegarde.
 
 Valeurs audio par défaut :
 
@@ -86,14 +86,12 @@ Lorsque la musique est activée, le bouton du mini-player gère pause/reprise. L
 
 ### Installation NANOS
 
-Le loading screen NANOS nécessite un serveur dédié. Vérifiez que `dedicated_server = true`. **Pour les versions 0.5.1 et 0.5.2, conservez l'identifiant technique de package utilisé par NANOS**, puis configurez :
+Le loading screen NANOS nécessite un serveur dédié. Vérifiez que `dedicated_server = true`. Configurez le package ainsi :
 
 ```toml
 [game]
 loading_screen = "ncore-loading-screen"
 ```
-
-L'identifiant technique de la version 0.5.1 ne doit pas être renommé isolément : sa migration nécessite une coordination avec le Vault/Store NANOS, la configuration serveur et la version du package.
 
 ### Liens officiels
 
@@ -164,7 +162,7 @@ User configuration is located only at `Config/config.js`. The file is organized 
 
 The current configuration schema is `schemaVersion = 1`.
 
-When moving from 0.5.1 to 0.5.2, back up your configuration, then carry your settings into the new `Config/config.js`. Do not overwrite the new file with the previous version: internal configuration identifiers have been updated for the ZOcre identity.
+Customize your settings in `Config/config.js` and keep a backup copy.
 
 Default audio policy:
 
@@ -179,14 +177,12 @@ When music is enabled, the mini-player button controls pause/resume. Arrow Up/Do
 
 ### NANOS installation
 
-NANOS loading screens require a dedicated server. Set `dedicated_server = true`. **For versions 0.5.1 and 0.5.2, preserve the current technical package identifier for NANOS compatibility**, then configure:
+NANOS loading screens require a dedicated server. Set `dedicated_server = true`. Configure the package as follows:
 
 ```toml
 [game]
 loading_screen = "ncore-loading-screen"
 ```
-
-The technical package identifier of version 0.5.1 must not be renamed in isolation. Any migration requires coordinated changes to the NANOS Vault/Store, server configuration and released package.
 
 ### Official links
 
